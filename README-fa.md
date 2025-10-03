@@ -30,7 +30,7 @@
 
 ## ابزارهای عمومی جمع‌آوری اطلاعات
 
-- **SpiderFoot**: ابزار اتوماتیک اسکن OSINT. [لینک](https://www.spiderfoot.net/)
+- **SpiderFoot**: ابزار اتوماتیک اسکن OSINT. [لینک](https://github.com/smicallef/spiderfoot)
 - **Maltego**: ابزار گرافیکی برای ترسیم روابط. [لینک](https://www.maltego.com/)
 - **osint.ir**: منبع فارسی OSINT. [لینک](https://osint.ir/)
 - **theHarvester**: ابزار جمع‌آوری ایمیل و زیر دامنه‌ها. [لینک](https://github.com/laramies/theHarvester)
@@ -43,7 +43,7 @@
 - **ابزارها**:
   - **ExifTool**: ویرایشگر متادیتا در خط فرمان. [لینک](https://exiftool.org/)
   - **Pic2Map**: مشاهده آنلاین موقعیت EXIF. [لینک](https://www.pic2map.com/)
-  - **WhereIsThePicture**: شناسایی موقعیت تصاویر.
+  - **WhereIsThePicture**: [لینک](https://whereisthepicture.com/) شناسایی موقعیت تصاویر
   - **Google Images**: جستجوی معکوس تصاویر. [لینک](https://images.google.com/)
   - **Yandex Images**: جستجوی معکوس پیشرفته. [لینک](https://yandex.com/images/)
   - **Bing Images**: جستجوی معکوس تصاویر. [لینک](https://www.bing.com/images/)
@@ -77,24 +77,20 @@
 - **لایه‌های وب**: Surface Web، Deep Web، Dark Web.
 - **Torch**: جستجوی سایت‌های .onion
 - **Ahmia**: جستجوی امن دارک وب. [لینک](https://ahmia.fi/)
-- **Candle**: جستجوی دارک وب
 - **Tor**: شبکه ناشناس برای دسترسی به دارک وب. [لینک](https://www.torproject.org/)
 - **Proxifier**: ابزار پراکسی. [لینک](https://www.proxifier.com/)
-- **Kodachi**: توزیع لینوکس برای ناشناس ماندن. [لینک](https://www.linuxkodachi.com/)
+- **Kodachi**: توزیع لینوکس برای ناشناس ماندن. [لینک](https://sourceforge.net/projects/linuxkodachi/)
 - **Tails**: سیستم عامل ناشناس از طریق USB. [لینک](https://tails.net/)
 - **ProxyChains**: زنجیره‌سازی پراکسی. [لینک](https://github.com/haad/proxychains)
-- **Gather Proxy**: جمع‌آوری لیست پراکسی.
-- **Anonymizer**: ابزارهای عمومی ناشناس‌سازی.
+- **Gather Proxy**: [لینک](https://gather-proxy.com/).جمع‌آوری لیست پراکسی
 - **Hidden Wiki**: دایرکتوری سایت‌های دارک وب. [لینک (.onion)](https://thehiddenwiki.org/)
-- **Darksearch**: جستجوی OSINT در دارک وب. [لینک](https://darksearch.io/)
 
 
 ## تولیدکننده‌ها و چکرها
 
 - **Fake Name Generator**: تولید نام جعلی. [لینک](https://www.fakenamegenerator.com/)
-- **Fake Person Generator**: ایجاد پروفایل جعلی.
+- **Fake Person Generator**: [لینک](https://www.fakepersongenerator.com/) ایجاد پروفایل جعلی.
 - **Username Generator**: ابزارهایی مانند BestRandom. [لینک](https://bestrandoms.com/random-username-generator)
-- **Background Checks**: جستجوی سوابق عمومی.
 
 
 ## ابزارهای ایمیل و نام کاربری
@@ -107,7 +103,6 @@
 - **Gravatar**: تصاویر پروفایل. [لینک](https://en.gravatar.com/)
 - **Skymem**: جستجوی ایمیل. [لینک](https://skymem.info/)
 - **InstantUsername**: بررسی نام کاربری. [لینک](https://instantusername.com/)
-- **CheckUsernames**: بررسی چند شبکه‌ای نام کاربری. [لینک](https://checkusernames.com/)
 - **NameChk**: بررسی نام کاربری. [لینک](https://namechk.com/)
 - **EmailRep.io**: بررسی اعتبار ایمیل. [لینک](https://emailrep.io/)
 
@@ -120,7 +115,6 @@
 - **IntelX**: جستجوی پیشرفته. [لینک](https://intelx.io/)
 - **Pastebin**: جستجوی متن‌های نشت شده. [لینک](https://pastebin.com/)
 - **SpyCloud**: تحلیل نشت داده‌ها. [لینک](https://spycloud.com/)
-- **GhostProject**: جستجوی نشت رایگان. [لینک](https://ghostproject.fr/)
 
 
 ## ابزارهای شبکه و سطح حمله
@@ -129,7 +123,6 @@
 - **Pentest-Tools**: ابزارهای تست نفوذ. [لینک](https://pentest-tools.com/)
 - **Bettercap**: MITM و DNS poisoning. [لینک](https://www.bettercap.org/)
 - **Wayback Machine**: آرشیو وب. [لینک](https://archive.org/web/)
-- **Hash Calculator**: محاسبه هش آنلاین (MD5, SHA و ...)
 
 
 ## سرویس‌های API
@@ -148,5 +141,4 @@
 - **Pulsedive**: تحلیل IOC. [لینک](https://pulsedive.com/)
 - **URLScan**: اسکن URL. [لینک](https://urlscan.io/)
 - **WhatCMS**: شناسایی CMS. [لینک](https://whatcms.org/)
-- **ZoneFiles**: فایل‌های DNS zone. [لینک](https://zonefiles.io/)
 
