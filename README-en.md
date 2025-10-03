@@ -1,6 +1,5 @@
 # 🕵️ Open Source Intelligence (OSINT) Guide
 
-This document is based on the provided handwritten notes, translated and structured into a professional English Markdown file suitable for GitHub. All content from the notes has been included, errors corrected (e.g., outdated tools replaced), and organized into logical sections with relevant links. The focus is on introducing tools, sites, and concepts without installation details. Additional modern tools have been added for completeness.
 
 ## Introduction
 
@@ -25,7 +24,6 @@ Additional intelligence disciplines include MASINT, GEOINT, HUMINT, FININT, CYBI
 
 - **SANS 497 OSINT Framework**: Educational course on OSINT frameworks. [Link](https://www.sans.org/cyber-security-courses/open-source-intelligence-gathering/)
 - **Big Data**: Leveraging large datasets for analysis.
-- **Adware**: Software that may expose user data.
 - **Social Media**: Primary source for personal and social data.
 - **Cyber Kill Chain**: Model for describing cyber attack stages.
 
@@ -34,7 +32,6 @@ Additional intelligence disciplines include MASINT, GEOINT, HUMINT, FININT, CYBI
 - **SpiderFoot**: Automated OSINT scanning tool. [Link](https://www.spiderfoot.net/)
 - **Maltego**: Graphical tool for mapping relationships. [Link](https://www.maltego.com/)
 - **osint.ir**: Persian OSINT resource. [Link](https://osint.ir/)
-- **Pentester Academy**: Training platform by Vivek Ramachandran. [Link](https://www.pentesteracademy.com/)
 - **theHarvester**: Tool for gathering emails and subdomains. [Link](https://github.com/laramies/theHarvester)
 
 ## Image and Media Analysis
@@ -57,6 +54,7 @@ Additional intelligence disciplines include MASINT, GEOINT, HUMINT, FININT, CYBI
 - **Flightradar24**: Flight tracking. [Link](https://www.flightradar24.com/)
 - **RadarBox**: Aircraft tracking. [Link](https://www.radarbox.com/)
 - **VesselFinder**: Ship tracking. [Link](https://www.vesselfinder.com/)
+- **IPLocation.net**: IP location. [link](https://iplocation.net/)
 
 ## Search Engines and Dorks
 
@@ -65,17 +63,16 @@ Additional intelligence disciplines include MASINT, GEOINT, HUMINT, FININT, CYBI
   - **Google**: Advanced search capabilities. [Link](https://www.google.com/)
 - **Google Dorks**: Operators like `site:`, `intitle:`, `filetype:`, `inurl:`, `AND`, `OR`, `NOT`, `~`. Example: `site:.ir intitle:"index of admin"` for admin pages.
 - **Shodan**: Search engine for IoT devices (e.g., Honey Pot, map, nmap integration). [Link](https://www.shodan.io/)
-- **Censys**: Device and certificate search. [Link](https://censys.io/)
+- **Censys**: Device search. [Link](https://censys.io/)
 - **ZoomEye**: Cyber search engine. [Link](https://www.zoomeye.org/)
 - **Biznar**: Business search. [Link](https://biznar.com/)
 
 ## Deep and Dark Web
 
 - **Web Layers**: Surface Web, Deep Web, Dark Web.
-- **Dark Web Search Engines**:
-  - **Torch**: .onion site search.
-  - **Ahmia**: Secure Dark Web search. [Link](https://ahmia.fi/)
-  - **Candle**: Dark Web search.
+- **Torch**: .onion site search.
+- **Ahmia**: Secure Dark Web search. [Link](https://ahmia.fi/)
+- **Candle**: Dark Web search.
 - **Tor**: Anonymous network for Dark Web access. [Link](https://www.torproject.org/)
 - **Proxifier**: Traffic proxy tool. [Link](https://www.proxifier.com/)
 - **Kodachi**: Linux distribution for anonymity. [Link](https://www.linuxkodachi.com/)
@@ -144,5 +141,3 @@ Additional intelligence disciplines include MASINT, GEOINT, HUMINT, FININT, CYBI
 - **URLScan**: URL scanning. [Link](https://urlscan.io/)
 - **WhatCMS**: CMS detection. [Link](https://whatcms.org/)
 - **ZoneFiles**: DNS zone files. [Link](https://zonefiles.io/)
-
-This Markdown is ready for GitHub use as a README.md. Let me know if you need adjustments!
