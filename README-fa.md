@@ -1,6 +1,5 @@
 # 🕵️ راهنمای OSINT
 
----
 ## مقدمه
 
 اوسینت شامل جمع‌آوری و تحلیل اطلاعاتی است که به صورت عمومی در دسترس هستند. حوزه‌های اصلی شامل موارد زیر است:
@@ -20,7 +19,6 @@
 
 رشته‌های دیگر اطلاعاتی شامل MASINT، GEOINT، HUMINT، FININT، CYBINT، TECHINT، SIGINT و OSINT هستند.
 
----
 
 ## چارچوب‌ها و مدل‌ها
 
@@ -29,7 +27,6 @@
 - **شبکه‌های اجتماعی**: منبع اصلی داده‌های شخصی و اجتماعی.
 - **Cyber Kill Chain**: مدلی برای توصیف مراحل حملات سایبری.
 
----
 
 ## ابزارهای عمومی جمع‌آوری اطلاعات
 
@@ -38,7 +35,6 @@
 - **osint.ir**: منبع فارسی OSINT. [لینک](https://osint.ir/)
 - **theHarvester**: ابزار جمع‌آوری ایمیل و زیر دامنه‌ها. [لینک](https://github.com/laramies/theHarvester)
 
----
 
 ## تحلیل تصاویر و رسانه
 
@@ -53,7 +49,6 @@
   - **Bing Images**: جستجوی معکوس تصاویر. [لینک](https://www.bing.com/images/)
   - **TinEye**: موتور جستجوی معکوس تصاویر. [لینک](https://tineye.com/)
 
----
 
 ## نقشه‌برداری و ردیابی
 
@@ -64,7 +59,6 @@
 - **VesselFinder**: ردیابی کشتی‌ها. [لینک](https://www.vesselfinder.com/)
 - **IPLocation.net**: موقعیت جغرافیایی IP. [لینک](https://iplocation.net/)
 
----
 
 ## موتورهای جستجو و دُرک‌ها (Dorks)
 
@@ -77,7 +71,6 @@
 - **ZoomEye**: موتور جستجوی سایبری. [لینک](https://www.zoomeye.org/)
 - **Biznar**: جستجوی تجاری. [لینک](https://biznar.com/)
 
----
 
 ## وب عمیق و دارک وب
 
@@ -95,7 +88,6 @@
 - **Hidden Wiki**: دایرکتوری سایت‌های دارک وب. [لینک (.onion)](https://thehiddenwiki.org/)
 - **Darksearch**: جستجوی OSINT در دارک وب. [لینک](https://darksearch.io/)
 
----
 
 ## تولیدکننده‌ها و چکرها
 
@@ -104,7 +96,6 @@
 - **Username Generator**: ابزارهایی مانند BestRandom. [لینک](https://bestrandoms.com/random-username-generator)
 - **Background Checks**: جستجوی سوابق عمومی.
 
----
 
 ## ابزارهای ایمیل و نام کاربری
 
@@ -120,7 +111,6 @@
 - **NameChk**: بررسی نام کاربری. [لینک](https://namechk.com/)
 - **EmailRep.io**: بررسی اعتبار ایمیل. [لینک](https://emailrep.io/)
 
----
 
 ## ابزارهای نشت داده
 
@@ -132,7 +122,6 @@
 - **SpyCloud**: تحلیل نشت داده‌ها. [لینک](https://spycloud.com/)
 - **GhostProject**: جستجوی نشت رایگان. [لینک](https://ghostproject.fr/)
 
----
 
 ## ابزارهای شبکه و سطح حمله
 
@@ -142,7 +131,6 @@
 - **Wayback Machine**: آرشیو وب. [لینک](https://archive.org/web/)
 - **Hash Calculator**: محاسبه هش آنلاین (MD5, SHA و ...)
 
----
 
 ## سرویس‌های API
 
@@ -161,7 +149,4 @@
 - **URLScan**: اسکن URL. [لینک](https://urlscan.io/)
 - **WhatCMS**: شناسایی CMS. [لینک](https://whatcms.org/)
 - **ZoneFiles**: فایل‌های DNS zone. [لینک](https://zonefiles.io/)
-
----
-
 
