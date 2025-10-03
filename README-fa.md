@@ -1,16 +1,14 @@
 # 🕵️ راهنمای OSINT
-این سند بر اساس یادداشت‌های ارائه‌شده تهیه شده و به صورت یک فایل Markdown حرفه‌ای برای گیت‌هاب ترجمه و ساختاربندی شده است. تمام محتوای یادداشت‌ها گنجانده شده، خطاها اصلاح شده (ابزارهای قدیمی جایگزین شده‌اند) و به بخش‌های منطقی با لینک‌های مرتبط سازمان‌دهی شده است. تمرکز بر معرفی ابزارها، سایت‌ها و مفاهیم است و جزئیات نصب لحاظ نشده است. همچنین ابزارهای مدرن جدید برای کامل بودن اضافه شده‌اند.
 
 ---
-
 ## مقدمه
 
-هوش متن‌باز (OSINT) شامل جمع‌آوری و تحلیل اطلاعاتی است که به صورت عمومی در دسترس هستند. حوزه‌های اصلی شامل موارد زیر است:
+اوسینت شامل جمع‌آوری و تحلیل اطلاعاتی است که به صورت عمومی در دسترس هستند. حوزه‌های اصلی شامل موارد زیر است:
 
 - **مقدمه**: اصول اولیه OSINT به عنوان روشی برای جمع‌آوری قانونی اطلاعات.
 - **جمع‌آوری اطلاعات**: استخراج داده‌ها از منابع عمومی.
 - **Mitre ATT&CK**: چارچوبی برای درک تاکتیک‌ها و تکنیک‌های حملات سایبری. [لینک](https://attack.mitre.org/)
-- **OSINT**: تکنیک‌های هوش متن‌باز.
+- **OSINT**: تکنیک‌های اوسینت.
 - **نشت داده‌ها**: شناسایی داده‌های نشت شده مانند ایمیل و رمز عبور.
 - **تصاویر**: تحلیل متادیتا (مانند GPS، تاریخ/زمان) در تصاویر.
 - **موتور جستجو**: استفاده از ابزارهای جستجوی پیشرفته.
@@ -28,7 +26,6 @@
 
 - **چارچوب OSINT SANS 497**: دوره آموزشی چارچوب‌های OSINT. [لینک](https://www.sans.org/cyber-security-courses/open-source-intelligence-gathering/)
 - **داده‌های بزرگ (Big Data)**: استفاده از مجموعه داده‌های بزرگ برای تحلیل.
-- **Adware**: نرم‌افزاری که ممکن است داده‌های کاربران را افشا کند.
 - **شبکه‌های اجتماعی**: منبع اصلی داده‌های شخصی و اجتماعی.
 - **Cyber Kill Chain**: مدلی برای توصیف مراحل حملات سایبری.
 
@@ -39,7 +36,6 @@
 - **SpiderFoot**: ابزار اتوماتیک اسکن OSINT. [لینک](https://www.spiderfoot.net/)
 - **Maltego**: ابزار گرافیکی برای ترسیم روابط. [لینک](https://www.maltego.com/)
 - **osint.ir**: منبع فارسی OSINT. [لینک](https://osint.ir/)
-- **Pentester Academy**: پلتفرم آموزشی توسط Vivek Ramachandran. [لینک](https://www.pentesteracademy.com/)
 - **theHarvester**: ابزار جمع‌آوری ایمیل و زیر دامنه‌ها. [لینک](https://github.com/laramies/theHarvester)
 
 ---
@@ -66,17 +62,18 @@
 - **Flightradar24**: ردیابی پروازها. [لینک](https://www.flightradar24.com/)
 - **RadarBox**: ردیابی هواپیماها. [لینک](https://www.radarbox.com/)
 - **VesselFinder**: ردیابی کشتی‌ها. [لینک](https://www.vesselfinder.com/)
+- **IPLocation.net**: موقعیت جغرافیایی IP. [لینک](https://iplocation.net/)
 
 ---
 
 ## موتورهای جستجو و دُرک‌ها (Dorks)
 
 - **موتورهای جستجوی متا**:
-  - **DuckDuckGo**: جستجوی حفظ حریم خصوصی. [لینک](https://duckduckgo.com/)
-  - **Google**: جستجوی پیشرفته. [لینک](https://www.google.com/)
+- **DuckDuckGo**: جستجوی حفظ حریم خصوصی. [لینک](https://duckduckgo.com/)
+- **Google**: جستجوی پیشرفته. [لینک](https://www.google.com/)
 - **Google Dorks**: اپراتورهایی مانند `site:`, `intitle:`, `filetype:`, `inurl:`, `AND`, `OR`, `NOT`, `~`. مثال: `site:.ir intitle:"index of admin"`
 - **Shodan**: موتور جستجوی دستگاه‌های IoT. [لینک](https://www.shodan.io/)
-- **Censys**: جستجوی دستگاه و گواهی. [لینک](https://censys.io/)
+- **Censys**: جستجوی دستگاه. [لینک](https://censys.io/)
 - **ZoomEye**: موتور جستجوی سایبری. [لینک](https://www.zoomeye.org/)
 - **Biznar**: جستجوی تجاری. [لینک](https://biznar.com/)
 
@@ -85,10 +82,9 @@
 ## وب عمیق و دارک وب
 
 - **لایه‌های وب**: Surface Web، Deep Web، Dark Web.
-- **موتورهای جستجوی دارک وب**:
-  - **Torch**: جستجوی سایت‌های .onion
-  - **Ahmia**: جستجوی امن دارک وب. [لینک](https://ahmia.fi/)
-  - **Candle**: جستجوی دارک وب
+- **Torch**: جستجوی سایت‌های .onion
+- **Ahmia**: جستجوی امن دارک وب. [لینک](https://ahmia.fi/)
+- **Candle**: جستجوی دارک وب
 - **Tor**: شبکه ناشناس برای دسترسی به دارک وب. [لینک](https://www.torproject.org/)
 - **Proxifier**: ابزار پراکسی. [لینک](https://www.proxifier.com/)
 - **Kodachi**: توزیع لینوکس برای ناشناس ماندن. [لینک](https://www.linuxkodachi.com/)
@@ -116,7 +112,6 @@
 - **Emailable**: تایید ایمیل. [لینک](https://emailable.com/)
 - **Email-Checker.net**: بررسی ایمیل. [لینک](https://email-checker.net/)
 - **Hunter.io**: جستجوی ایمیل. [لینک](https://hunter.io/)
-- **IPLocation.net**: موقعیت جغرافیایی IP. [لینک](https://iplocation.net/)
 - **InfoTracer**: جستجوی داده‌های شخصی. [لینک](https://infotracer.com/)
 - **Gravatar**: تصاویر پروفایل. [لینک](https://en.gravatar.com/)
 - **Skymem**: جستجوی ایمیل. [لینک](https://skymem.info/)
@@ -144,7 +139,6 @@
 - **ViewDNS**: ابزارهای DNS. [لینک](https://viewdns.info/)
 - **Pentest-Tools**: ابزارهای تست نفوذ. [لینک](https://pentest-tools.com/)
 - **Bettercap**: MITM و DNS poisoning. [لینک](https://www.bettercap.org/)
-- **MKVToolNix**: ویرایش ویدئو برای تحلیل رسانه. [لینک](https://mkvtoolnix.download/)
 - **Wayback Machine**: آرشیو وب. [لینک](https://archive.org/web/)
 - **Hash Calculator**: محاسبه هش آنلاین (MD5, SHA و ...)
 
