@@ -1,7 +1,7 @@
 
 # Open Source Intelligence (OSINT) Guide
 
-This repository contains a collection of resources, tools, and techniques for Open Source Intelligence (OSINT), compiled from my handwritten notes. The goal is to provide a comprehensive and up-to-date guide for cybersecurity enthusiasts and researchers.
+This repository contains a collection of resources, tools, and techniques for Open Source Intelligence (OSINT), compiled from my notes. The goal is to provide a comprehensive and up-to-date guide for cybersecurity enthusiasts and researchers.
 
 ## Contents
 - **Introduction**: Basic OSINT concepts, frameworks, and models.
@@ -32,7 +32,7 @@ Everyone is welcome to contribute! Please open issues or send pull requests.
 - Incorporate user feedback.
 - Expand with visual aids like diagrams or screenshots.
 
-Please read the README-en.md!
+Please read the [README-en.md](https://github.com/Adib4A/osint-tools/README-en.md)!
 
 
 
@@ -69,4 +69,4 @@ Please read the README-en.md!
 - درج بازخوردهای کاربران.
 - گسترش با استفاده از ابزارهای بصری مانند نمودارها یا اسکرین‌شات‌ها.
 
-لطفا فایل README-fa.md را مطالعه کنید!
+لطفا فایل [README-fa.md](https://github.com/Adib4A/osint-tools/README-fa.md) را مطالعه کنید!
