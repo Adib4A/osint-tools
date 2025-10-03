@@ -32,7 +32,7 @@ Everyone is welcome to contribute! Please open issues or send pull requests.
 - Incorporate user feedback.
 - Expand with visual aids like diagrams or screenshots.
 
-Please read the [README-en.md](https://github.com/Adib4A/osint-tools/README-en.md)!
+Please read the [README-en.md](https://github.com/Adib4A/osint-tools/blob/main/README-en.md)!
 
 
 
@@ -69,4 +69,4 @@ Please read the [README-en.md](https://github.com/Adib4A/osint-tools/README-en.m
 - درج بازخوردهای کاربران.
 - گسترش با استفاده از ابزارهای بصری مانند نمودارها یا اسکرین‌شات‌ها.
 
-لطفا فایل [README-fa.md](https://github.com/Adib4A/osint-tools/README-fa.md) را مطالعه کنید!
+لطفا فایل [README-fa.md](https://github.com/Adib4A/osint-tools/blob/main/README-fa.md) را مطالعه کنید!
