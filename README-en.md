@@ -1,4 +1,4 @@
-# Open Source Intelligence (OSINT) Guide
+# 🕵️ Open Source Intelligence (OSINT) Guide
 
 This document is based on the provided handwritten notes, translated and structured into a professional English Markdown file suitable for GitHub. All content from the notes has been included, errors corrected (e.g., outdated tools replaced), and organized into logical sections with relevant links. The focus is on introducing tools, sites, and concepts without installation details. Additional modern tools have been added for completeness.
 
