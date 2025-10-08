@@ -6,7 +6,7 @@
 
 - **مقدمه**: اصول اولیه OSINT به عنوان روشی برای جمع‌آوری قانونی اطلاعات.
 - **جمع‌آوری اطلاعات**: استخراج داده‌ها از منابع عمومی.
-- **Mitre ATT&CK**: چارچوبی برای درک تاکتیک‌ها و تکنیک‌های حملات سایبری. [لینک](https://attack.mitre.org/)
+- **[MITRE ATT&CK](https://attack.mitre.org/)**: چارچوبی برای درک تاکتیک‌ها و تکنیک‌های حملات سایبری از که جزئیات دقیق این چارچوب را ارائه می‌دهد.
 - **OSINT**: تکنیک‌های اوسینت.
 - **نشت داده‌ها**: شناسایی داده‌های نشت شده مانند ایمیل و رمز عبور.
 - **تصاویر**: تحلیل متادیتا (مانند GPS، تاریخ/زمان) در تصاویر.
@@ -19,126 +19,114 @@
 
 رشته‌های دیگر اطلاعاتی شامل MASINT، GEOINT، HUMINT، FININT، CYBINT، TECHINT، SIGINT و OSINT هستند.
 
-
 ## چارچوب‌ها و مدل‌ها
 
-- **چارچوب OSINT SANS 497**: دوره آموزشی چارچوب‌های OSINT. [لینک](https://www.sans.org/cyber-security-courses/open-source-intelligence-gathering/)
+- **[SANS Institute](https://www.sans.org/cyber-security-courses/open-source-intelligence-gathering/)**: دوره آموزشی چارچوب‌های OSINT از که منابع آموزشی کاملی برای یادگیری ارائه می‌دهد.
 - **داده‌های بزرگ (Big Data)**: استفاده از مجموعه داده‌های بزرگ برای تحلیل.
-- **شبکه‌های اجتماعی**: منبع اصلی داده‌های شخصی و اجتماعی.
+- **شبکه‌های اجتماعی(Social Media)**: منبع اصلی داده‌های شخصی و اجتماعی.
 - **Cyber Kill Chain**: مدلی برای توصیف مراحل حملات سایبری.
-
 
 ## ابزارهای عمومی جمع‌آوری اطلاعات
 
-- **SpiderFoot**: ابزار اتوماتیک اسکن OSINT. [لینک](https://github.com/smicallef/spiderfoot)
-- **Maltego**: ابزار گرافیکی برای ترسیم روابط. [لینک](https://www.maltego.com/)
-- **osint.ir**: منبع فارسی OSINT. [لینک](https://osint.ir/)
-- **theHarvester**: ابزار جمع‌آوری ایمیل و زیر دامنه‌ها. [لینک](https://github.com/laramies/theHarvester)
-
+- **[GitHub SpiderFoot](https://github.com/smicallef/spiderfoot)**: ابزار اتوماتیک اسکن OSINT از که برای جمع‌آوری خودکار داده‌ها مفید است.
+- **[Maltego](https://www.maltego.com/)**: ابزار گرافیکی برای ترسیم روابط از که روابط بین داده‌ها را به صورت بصری نشان می‌دهد.
+- **[OSINT.ir](https://osint.ir/)**: منبع فارسی OSINT از که محتوای مرتبط با OSINT به زبان پارسی ارائه می‌دهد.
+- **[GitHub theHarvester](https://github.com/laramies/theHarvester)**: ابزار جمع‌آوری ایمیل و زیر دامنه‌ها از که برای استخراج اطلاعات از منابع عمومی طراحی شده است.
 
 ## تحلیل تصاویر و رسانه
 
 - **Exif Data**: متادیتای تصاویر شامل GPS، تاریخ/زمان و حق نشر.
 - **Document Inspect**: تحلیل متادیتا در اسناد آفیس.
 - **ابزارها**:
-  - **ExifTool**: ویرایشگر متادیتا در خط فرمان. [لینک](https://exiftool.org/)
-  - **Pic2Map**: مشاهده آنلاین موقعیت EXIF. [لینک](https://www.pic2map.com/)
-  - **WhereIsThePicture**: [لینک](https://whereisthepicture.com/) شناسایی موقعیت تصاویر
-  - **Google Images**: جستجوی معکوس تصاویر. [لینک](https://images.google.com/)
-  - **Yandex Images**: جستجوی معکوس پیشرفته. [لینک](https://yandex.com/images/)
-  - **Bing Images**: جستجوی معکوس تصاویر. [لینک](https://www.bing.com/images/)
-  - **TinEye**: موتور جستجوی معکوس تصاویر. [لینک](https://tineye.com/)
+  - **[ExifTool](https://exiftool.org/)**: ویرایشگر متادیتا در خط فرمان از که برای خواندن و ویرایش متادیتا استفاده می‌شود.
+  - **[Pic2Map](https://www.pic2map.com/)**: مشاهده آنلاین موقعیت EXIF از که موقعیت جغرافیایی تصاویر را استخراج می‌کند.
+  - **[Google Images](https://images.google.com/)**: جستجوی معکوس تصاویر از که تصاویر مشابه را پیدا می‌کند.
+  - **[Yandex Images](https://yandex.com/images/)**: جستجوی معکوس پیشرفته از که گزینه‌های پیشرفته‌تری برای جستجو ارائه می‌دهد.
+  - **[Bing Images](https://www.bing.com/images/)**: جستجوی معکوس تصاویر از که جایگزینی برای گوگل است.
+  - **[TinEye](https://tineye.com/)**: موتور جستجوی معکوس تصاویر از که بر پایه الگوریتم‌های خاص کار می‌کند.
 
 
 ## نقشه‌برداری و ردیابی
 
-- **Wikimapia**: نقشه‌های تعاملی کاربران. [لینک](https://wikimapia.org/)
-- **Liveuamap**: نقشه‌های جهانی رویدادها به صورت زنده. [لینک](https://liveuamap.com/)
-- **Flightradar24**: ردیابی پروازها. [لینک](https://www.flightradar24.com/)
-- **RadarBox**: ردیابی هواپیماها. [لینک](https://www.radarbox.com/)
-- **VesselFinder**: ردیابی کشتی‌ها. [لینک](https://www.vesselfinder.com/)
-- **IPLocation.net**: موقعیت جغرافیایی IP. [لینک](https://iplocation.net/)
-
+- **[Wikimapia](https://wikimapia.org/)**: نقشه‌های تعاملی کاربران از که اطلاعات کاربرمحور ارائه می‌دهد.
+- **[Liveuamap](https://liveuamap.com/)**: نقشه‌های جهانی رویدادها به صورت زنده از که رویدادهای جاری را نشان می‌دهد.
+- **[Flightradar24](https://www.flightradar24.com/)**: ردیابی پروازها از که داده‌های زنده پروازها را فراهم می‌کند.
+- **[RadarBox](https://www.radarbox.com/)**: ردیابی هواپیماها از که مشابه فلایت‌رادار است.
+- **[VesselFinder](https://www.vesselfinder.com/)**: ردیابی کشتی‌ها از که موقعیت کشتی‌ها را نشان می‌دهد.
+- **[IPLocation.net](https://iplocation.net/)**: موقعیت جغرافیایی IP از که اطلاعات مکان IP را استخراج می‌کند.
 
 ## موتورهای جستجو و دُرک‌ها (Dorks)
 
 - **موتورهای جستجوی متا**:
-- **DuckDuckGo**: جستجوی حفظ حریم خصوصی. [لینک](https://duckduckgo.com/)
-- **Google**: جستجوی پیشرفته. [لینک](https://www.google.com/)
+- **[DuckDuckGo](https://duckduckgo.com/)**: جستجوی حفظ حریم خصوصی از که بدون ردیابی کاربر کار می‌کند.
+- **[Google](https://www.google.com/)**: جستجوی پیشرفته از که اپراتورهای پیشرفته دارد.
 - **Google Dorks**: اپراتورهایی مانند `site:`, `intitle:`, `filetype:`, `inurl:`, `AND`, `OR`, `NOT`, `~`. مثال: `site:.ir intitle:"index of admin"`
-- **Shodan**: موتور جستجوی دستگاه‌های IoT. [لینک](https://www.shodan.io/)
-- **Censys**: جستجوی دستگاه. [لینک](https://censys.io/)
-- **ZoomEye**: موتور جستجوی سایبری. [لینک](https://www.zoomeye.org/)
-- **Biznar**: جستجوی تجاری. [لینک](https://biznar.com/)
-
+- **[Shodan](https://www.shodan.io/)**: موتور جستجوی دستگاه‌های IoT از که دستگاه‌های متصل را جستجو می‌کند.
+- **[Censys](https://censys.io/)**: جستجوی دستگاه از که داده‌های اسکن اینترنت ارائه می‌دهد.
+- **[ZoomEye](https://www.zoomeye.org/)**: موتور جستجوی سایبری از که برای جستجوی آسیب‌پذیری‌ها مفید است.
+- **[Biznar](https://biznar.com/)**: جستجوی تجاری از که بر روی اطلاعات تجاری تمرکز دارد.
 
 ## وب عمیق و دارک وب
 
 - **لایه‌های وب**: Surface Web، Deep Web، Dark Web.
-- **Torch**: جستجوی سایت‌های .onion
-- **Ahmia**: جستجوی امن دارک وب. [لینک](https://ahmia.fi/)
-- **Tor**: شبکه ناشناس برای دسترسی به دارک وب. [لینک](https://www.torproject.org/)
-- **Proxifier**: ابزار پراکسی. [لینک](https://www.proxifier.com/)
-- **Kodachi**: توزیع لینوکس برای ناشناس ماندن. [لینک](https://sourceforge.net/projects/linuxkodachi/)
-- **Tails**: سیستم عامل ناشناس از طریق USB. [لینک](https://tails.net/)
-- **ProxyChains**: زنجیره‌سازی پراکسی. [لینک](https://github.com/haad/proxychains)
-- **Gather Proxy**: [لینک](https://gather-proxy.com/).جمع‌آوری لیست پراکسی
-- **Hidden Wiki**: دایرکتوری سایت‌های دارک وب. [لینک (.onion)](https://thehiddenwiki.org/)
-
+- **Torch**: جستجوی سایت‌های .onion (برای دسترسی نیاز به Tor دارید و لینک مستقیم .onion است، اما برای اطلاعات بیشتر به منابع Tor مراجعه کنید).
+- **[Ahmia](https://ahmia.fi/)**: جستجوی امن دارک وب از که ایندکس سایت‌های .onion را فراهم می‌کند.
+- **[Tor Project](https://www.torproject.org/)**: شبکه ناشناس برای دسترسی به دارک وب از که مرورگر ناشناس ارائه می‌دهد.
+- **[Proxifier](https://www.proxifier.com/)**: ابزار پراکسی از که ترافیک را از پراکسی عبور می‌دهد.
+- **[SourceForge Kodachi](https://sourceforge.net/projects/linuxkodachi/)**: توزیع لینوکس برای ناشناس ماندن از که سیستم عامل امن است.
+- **[Tails](https://tails.net/)**: سیستم عامل ناشناس از طریق USB از که برای حفظ حریم خصوصی طراحی شده است.
+- **[GitHub ProxyChains](https://github.com/haad/proxychains)**: زنجیره‌سازی پراکسی از که برای زنجیره پراکسی‌ها استفاده می‌شود.
+- **[Gather Proxy](https://gather-proxy.com/)**: جمع‌آوری لیست پراکسی از که لیست پراکسی‌های رایگان ارائه می‌دهد.
+- **[Hidden Wiki](https://thehiddenwiki.org/)**: دایرکتوری سایت‌های دارک وب از که لینک‌های .onion را فهرست می‌کند (توجه: برای دسترسی واقعی نیاز به Tor است).
 
 ## تولیدکننده‌ها و چکرها
 
-- **Fake Name Generator**: تولید نام جعلی. [لینک](https://www.fakenamegenerator.com/)
-- **Fake Person Generator**: [لینک](https://www.fakepersongenerator.com/) ایجاد پروفایل جعلی.
-- **Username Generator**: ابزارهایی مانند BestRandom. [لینک](https://bestrandoms.com/random-username-generator)
-
+- **[Fake Name Generator](https://www.fakenamegenerator.com/)**: تولید نام جعلی از که هویت‌های جعلی ایجاد می‌کند.
+- **[Fake Person Generator](https://www.fakepersongenerator.com/)**: ایجاد پروفایل جعلی از که جزئیات کامل ارائه می‌دهد.
+- **[BestRandoms](https://bestrandoms.com/random-username-generator)**: ابزارهایی مانند BestRandom از که نام کاربری تصادفی تولید می‌کند.
 
 ## ابزارهای ایمیل و نام کاربری
 
-- **Hotmail/Outlook**: سرویس ایمیل. [لینک](https://outlook.live.com/)
-- **Emailable**: تایید ایمیل. [لینک](https://emailable.com/)
-- **Email-Checker.net**: بررسی ایمیل. [لینک](https://email-checker.net/)
-- **Hunter.io**: جستجوی ایمیل. [لینک](https://hunter.io/)
-- **InfoTracer**: جستجوی داده‌های شخصی. [لینک](https://infotracer.com/)
-- **Gravatar**: تصاویر پروفایل. [لینک](https://en.gravatar.com/)
-- **Skymem**: جستجوی ایمیل. [لینک](https://skymem.info/)
-- **InstantUsername**: بررسی نام کاربری. [لینک](https://instantusername.com/)
-- **NameChk**: بررسی نام کاربری. [لینک](https://namechk.com/)
-- **EmailRep.io**: بررسی اعتبار ایمیل. [لینک](https://emailrep.io/)
+- **[Outlook](https://outlook.live.com/)**: سرویس ایمیل از که برای ایجاد حساب ایمیل استفاده می‌شود.
+- **[Emailable](https://emailable.com/)**: تایید ایمیل از که اعتبار ایمیل‌ها را چک می‌کند.
+- **[Email-Checker.net](https://email-checker.net/)**: بررسی ایمیل از که وجود ایمیل را تایید می‌کند.
+- **[Hunter.io](https://hunter.io/)**: جستجوی ایمیل از که ایمیل‌های مرتبط با دامنه را پیدا می‌کند.
+- **[InfoTracer](https://infotracer.com/)**: جستجوی داده‌های شخصی از که اطلاعات افراد را جستجو می‌کند.
+- **[Gravatar](https://en.gravatar.com/)**: تصاویر پروفایل از که آواتارهای مرتبط با ایمیل را نشان می‌دهد.
+- **[InstantUsername](https://instantusername.com/)**: بررسی نام کاربری از که در شبکه‌های مختلف چک می‌کند.
+- **[NameChk](https://namechk.com/)**: بررسی نام کاربری از که دسترسی‌پذیری نام را نشان می‌دهد.
+- **[EmailRep.io](https://emailrep.io/)**: بررسی اعتبار ایمیل از که ریسک ایمیل را ارزیابی می‌کند.
 
 
 ## ابزارهای نشت داده
 
-- **DeHashed**: جستجوی داده‌های نشت کرده. [لینک](https://dehashed.com/)
-- **HaveIBeenPwned**: بررسی نشت ایمیل. [لینک](https://haveibeenpwned.com/)
-- **Spokeo**: جستجوی افراد. [لینک](https://www.spokeo.com/)
-- **IntelX**: جستجوی پیشرفته. [لینک](https://intelx.io/)
-- **Pastebin**: جستجوی متن‌های نشت شده. [لینک](https://pastebin.com/)
-- **SpyCloud**: تحلیل نشت داده‌ها. [لینک](https://spycloud.com/)
-
+- **[DeHashed](https://dehashed.com/)**: جستجوی داده‌های نشت کرده از که پایگاه داده‌های هک‌شده را جستجو می‌کند.
+- **[HaveIBeenPwned](https://haveibeenpwned.com/)**: بررسی نشت ایمیل از که نشت‌های شناخته‌شده را چک می‌کند.
+- **[Spokeo](https://www.spokeo.com/)**: جستجوی افراد از که اطلاعات عمومی افراد را جمع‌آوری می‌کند.
+- **[IntelX](https://intelx.io/)**: جستجوی پیشرفته از که جستجوی عمیق در داده‌های نشت‌شده انجام می‌دهد.
+- **[Pastebin](https://pastebin.com/)**: جستجوی متن‌های نشت شده از که متن‌های عمومی را میزبانی می‌کند.
+- **[SpyCloud](https://spycloud.com/)**: تحلیل نشت داده‌ها از که داده‌های دزدیده‌شده را تحلیل می‌کند.
 
 ## ابزارهای شبکه و سطح حمله
 
-- **ViewDNS**: ابزارهای DNS. [لینک](https://viewdns.info/)
-- **Pentest-Tools**: ابزارهای تست نفوذ. [لینک](https://pentest-tools.com/)
-- **Bettercap**: MITM و DNS poisoning. [لینک](https://www.bettercap.org/)
-- **Wayback Machine**: آرشیو وب. [لینک](https://archive.org/web/)
-
+- **[ViewDNS](https://viewdns.info/)**: ابزارهای DNS از که اطلاعات DNS را ارائه می‌دهد.
+- **[Pentest-Tools](https://pentest-tools.com/)**: ابزارهای تست نفوذ از که اسکن‌های امنیتی انجام می‌دهد.
+- **[Bettercap](https://www.bettercap.org/)**: MITM و DNS poisoning از که برای حملات شبکه استفاده می‌شود.
+- **[Wayback Machine](https://archive.org/web/)**: آرشیو وب از که نسخه‌های قدیمی سایت‌ها را ذخیره می‌کند.
 
 ## سرویس‌های API
 
-- **AbuseIPDB**: گزارش IP مخرب. [لینک](https://www.abuseipdb.com/)
-- **Etherscan**: اکسپلورر بلاکچین. [لینک](https://etherscan.io/)
-- **FullHunt**: جستجوی سطح حمله. [لینک](https://fullhunt.io/)
-- **Viz.GreyNoise**: تحلیل نویز IP. [لینک](https://viz.greynoise.io/)
-- **Hybrid-Analysis**: تحلیل بدافزار. [لینک](https://hybrid-analysis.com/)
-- **IKnowWhatYouDownload**: ردیابی دانلود. [لینک](https://iknowwhatyoudownload.com/)
-- **IPAPI**: اطلاعات IP. [لینک](https://ipapi.com/)
-- **Host.io**: داده‌های دامنه. [لینک](https://host.io/)
-- **Leak-Lookup**: جستجوی نشت داده‌ها. [لینک](https://leak-lookup.com/)
-- **Maltiverse**: اطلاعات تهدیدات. [لینک](https://maltiverse.com/)
-- **NetworksDB**: پایگاه داده شبکه. [لینک](https://networksdb.io/)
-- **Pulsedive**: تحلیل IOC. [لینک](https://pulsedive.com/)
-- **URLScan**: اسکن URL. [لینک](https://urlscan.io/)
-- **WhatCMS**: شناسایی CMS. [لینک](https://whatcms.org/)
-
+- **[AbuseIPDB](https://www.abuseipdb.com/)**: گزارش IP مخرب از که IPهای بد را گزارش می‌کند.
+- **[Etherscan](https://etherscan.io/)**: اکسپلورر بلاکچین از که تراکنش‌های اتریوم را نشان می‌دهد.
+- **[FullHunt](https://fullhunt.io/)**: جستجوی سطح حمله از که سطح حمله را اسکن می‌کند.
+- **[Viz.GreyNoise](https://viz.greynoise.io/)**: تحلیل نویز IP از که نویزهای اینترنتی را تحلیل می‌کند (توجه: ممکن است نیاز به دسترسی داشته باشد).
+- **[Hybrid-Analysis](https://hybrid-analysis.com/)**: تحلیل بدافزار از که فایل‌های مشکوک را بررسی می‌کند.
+- **[IKnowWhatYouDownload](https://iknowwhatyoudownload.com/)**: ردیابی دانلود از که دانلودهای تورنت را ردیابی می‌کند.
+- **[IPAPI](https://ipapi.com/)**: اطلاعات IP از که API برای داده‌های IP ارائه می‌دهد.
+- **[Host.io](https://host.io/)**: داده‌های دامنه از که اطلاعات دامنه‌ها را جمع‌آوری می‌کند.
+- **[Leak-Lookup](https://leak-lookup.com/)**: جستجوی نشت داده‌ها از که نشت‌ها را جستجو می‌کند.
+- **[Maltiverse](https://maltiverse.com/)**: اطلاعات تهدیدات از که IOCها را تحلیل می‌کند.
+- **[NetworksDB](https://networksdb.io/)**: پایگاه داده شبکه از که داده‌های شبکه ارائه می‌دهد.
+- **[Pulsedive](https://pulsedive.com/)**: تحلیل IOC از که تهدیدات را اسکن می‌کند.
+- **[URLScan](https://urlscan.io/)**: اسکن URL از که URLها را بررسی می‌کند.
+- **[WhatCMS](https://whatcms.org/)**: شناسایی CMS از که سیستم مدیریت محتوای سایت‌ها را تشخیص می‌دهد.
